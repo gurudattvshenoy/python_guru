@@ -31,7 +31,11 @@ class Person:
 
     def __repr__(self):
        return 'Person(name = {}, age = {})'.format(self.name,self.age)
-
+  
+    @staticmethod
+    def is_adult(age):
+       return age >= 18
+    
 
 p = Person("Guru",34)
 print(p.name)
@@ -42,7 +46,6 @@ print(p.name)
 #p.age = "str"
 
 p.age = 25
-print(p)
-
+print("Is  {} adult? {}".format(p,p.is_adult(p.age)))
 print("Person instance p __dict__ property {} ".format(p.__dict__))
 print('Person class __dict__ property {}'.format(Person.__dict__))
