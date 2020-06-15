@@ -7,7 +7,7 @@ print("After adding {} element to end of the list : {}".format("egde",browser))
 
 # adds/inserts element to specific position
 browser.insert(1,"mozilla")
-print("After adding {} element to first position of the list : {}".format("mozilla",browser))
+print("After adding {} element to first index of the list : {}".format("mozilla",browser))
 
 # adding element using slicing
 browser[2:3] = ['Apple safari','Microsoft IE']
