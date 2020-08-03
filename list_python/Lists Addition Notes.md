@@ -1,4 +1,5 @@
-Lists in Python. 
+**Lists in Python. **
+
 A list is a data type that allows you to store various types data in it. 
 List is a compound data type which means you can have 2 different data types under a list, for example we can have integer, 
 float and string items in the same list.In short, list is ordered collection of objects.
@@ -20,7 +21,7 @@ print("Whole list {}".format(numbers[:]))
 ```
 
 ------------------------------------------------------------------------------------------------------
-**Output of above program:**
+Output of above program:
 ------------------------------------------------------------------------------------------------------
 ```
 First element is 11
@@ -33,7 +34,8 @@ Whole list [11, 22, 33, 100, 200, 300]
 ```
 ------------------------------------------------------------------------------------------------------------------------------------
 
-List methods - insert(),append(),extend() 
+
+**List methods - insert(),append(),extend() **
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ```
