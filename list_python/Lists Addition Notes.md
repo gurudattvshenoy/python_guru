@@ -56,7 +56,7 @@ print("After adding elements to the end of the list {} ".format(numbers))
 ```
 
 ------------------------------------------------------------------------------------------------------
-**Output of above program:**
+Output of above program:
 ------------------------------------------------------------------------------------------------------
 ```
 Displaying elements of the list [1, 2, 3, 100, 4]
@@ -65,3 +65,33 @@ Numbers is stored at 139909621338880 location
 Numbers is stored at 139909621824192 location 
 After adding elements to the end of the list [1, 2, 3, 100, 4, 99, 11, 22, 111, 222] 
 ```
+Update list
+
+```
+# list of numbers
+numbers = [1, 2, 3, 4]
+print("Displaying the elements of the list {} ".format(numbers))
+# Changing the value of 3rd item
+numbers[2] = 100
+
+# list: [1, 2, 100, 4]
+print("Displaying the elements after modifying the index 2(3rd pos) of the list {} ".format(numbers))
+
+print("Before updating {} - number address location ".format(id(numbers)))
+# Updating the values of 2nd to fourth items
+numbers[1:4] = [11, 22, 33]
+print("After updating {} - number address location ".format(id(numbers)))
+# list: [1, 11, 22, 33]
+print(numbers)
+```
+------------------------------------------------------------------------------------------------------
+Output of above program:
+------------------------------------------------------------------------------------------------------
+```
+Displaying the elements of the list [1, 2, 3, 4] 
+Displaying the elements after modifying the index 2(3rd pos) of the list [1, 2, 100, 4] 
+Before updating 140333568000768 - number address location 
+After updating 140333568000768 - number address location 
+[1, 11, 22, 33]
+```
+
