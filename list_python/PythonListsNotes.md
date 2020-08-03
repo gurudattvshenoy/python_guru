@@ -136,3 +136,35 @@ Printing the list
 []
 ```
 
+**Other operations supported on list
+```
+numbers = [2,12,41,15,-6,2,33,2]
+print("Displaying the list {}".format(numbers))
+print("The number of occurances of number 3 is {}".format(numbers.count(3)))
+print("The number of occurances of number 2 is {}".format(numbers.count(2)))
+print("The index of element 12 in the list {}".format(numbers.index(12)))
+print("Displaying element in sorted order {}".format(sorted(numbers)))
+print("The len of list is {}".format(len(numbers)))
+print("The max element of the list {}".format(max(numbers)))
+print("The min element of the list {}".format(min(numbers)))
+print("The sum of elements in the list {}".format(sum(numbers)))
+numbers.sort()
+print("Sorted the list using sort method mutates the list {}".format(numbers))
+str = "abc"
+elem = list(str)
+print("Convesion of string  - {} to list -{} ".format(str,elem))
+```
+**Output of above program
+```
+Displaying the list [2, 12, 41, 15, -6, 2, 33, 2]
+The number of occurances of number 3 is 0
+The number of occurances of number 2 is 3
+The index of element 12 in the list 1
+Displaying element in sorted order [-6, 2, 2, 2, 12, 15, 33, 41]
+The len of list is 8
+The max element of the list 41
+The min element of the list -6
+The sum of elements in the list 101
+Sorted the list using sort method mutates the list [-6, 2, 2, 2, 12, 15, 33, 41]
+Convesion of string  - abc to list -['a', 'b', 'c'] 
+```
