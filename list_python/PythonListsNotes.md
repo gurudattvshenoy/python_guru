@@ -136,7 +136,7 @@ Printing the list
 []
 ```
 
-**Other operations supported on list
+**Other operations supported on list**
 ```
 numbers = [2,12,41,15,-6,2,33,2]
 print("Displaying the list {}".format(numbers))
@@ -154,7 +154,7 @@ str = "abc"
 elem = list(str)
 print("Convesion of string  - {} to list -{} ".format(str,elem))
 ```
-**Output of above program
+**Output of above program**
 ```
 Displaying the list [2, 12, 41, 15, -6, 2, 33, 2]
 The number of occurances of number 3 is 0
