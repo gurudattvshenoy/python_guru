@@ -4,7 +4,7 @@ A list is a data type that allows you to store various types data in it.
 List is a compound data type which means you can have 2 different data types under a list, for example we can have integer, 
 float and string items in the same list.In short, list is ordered collection of objects.
 
-+Green **Coding:**
+**Coding:**
 ```
 numbers = [11, 22, 33, 100, 200, 300]
 print("First element is {}".format(numbers[0]))
