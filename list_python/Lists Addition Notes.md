@@ -35,7 +35,7 @@ Whole list [11, 22, 33, 100, 200, 300]
 ------------------------------------------------------------------------------------------------------------------------------------
 
 
-**List methods - insert(),append(),extend() **
+List methods - insert(),append(),extend() 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ```
@@ -67,7 +67,7 @@ Numbers is stored at 139909621338880 location
 Numbers is stored at 139909621824192 location 
 After adding elements to the end of the list [1, 2, 3, 100, 4, 99, 11, 22, 111, 222] 
 ```
-Update list
+**Update list**
 
 ```
 # list of numbers
