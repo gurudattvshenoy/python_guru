@@ -3,7 +3,7 @@ A list is a data type that allows you to store various types data in it.
 List is a compound data type which means you can have 2 different data types under a list, for example we can have integer, 
 float and string items in the same list.In short, list is ordered collection of objects.
 
-** Coding:**
+**Coding:**
 ```
 numbers = [11, 22, 33, 100, 200, 300]
 print("First element is {}".format(numbers[0]))
@@ -20,7 +20,7 @@ print("Whole list {}".format(numbers[:]))
 ```
 
 ------------------------------------------------------------------------------------------------------
-** Output of this program: **
+**Output of this program:**
 ------------------------------------------------------------------------------------------------------
 ```
 First element is 11
@@ -33,7 +33,7 @@ Whole list [11, 22, 33, 100, 200, 300]
 ```
 ------------------------------------------------------------------------------------------------------------------------------------
 
-** list methods - insert(),append(),extend() **
+**List methods - insert(),append(),extend() **
 
 ```
 numbers = [1, 2, 3, 4]
@@ -55,7 +55,7 @@ print("After adding elements to the end of the list {} ".format(numbers))
 ```
 
 ------------------------------------------------------------------------------------------------------
-Output of this program:
+**Output of this program:**
 ------------------------------------------------------------------------------------------------------
 ```
 Displaying elements of the list [1, 2, 3, 100, 4]
