@@ -1,4 +1,4 @@
-**Lists in Python.**
+# Lists in Python.
 
 A list is a data type that allows you to store various types data in it. 
 List is a compound data type which means you can have 2 different data types under a list, for example we can have integer, 
