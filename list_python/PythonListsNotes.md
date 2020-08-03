@@ -20,9 +20,7 @@ print("Elements from 4th position till end of the list {}".format(numbers[3:]))
 print("Whole list {}".format(numbers[:]))
 ```
 
-------------------------------------------------------------------------------------------------------
-Output of above program:
-------------------------------------------------------------------------------------------------------
+**Output of above program:**
 ```
 First element is 11
 There is no element at the index
@@ -57,9 +55,7 @@ print("Numbers is stored at {} location ".format(id(numbers)))
 print("After adding elements to the end of the list {} ".format(numbers))
 ```
 
-------------------------------------------------------------------------------------------------------
-Output of above program:
-------------------------------------------------------------------------------------------------------
+**Output of above program:**
 ```
 Displaying elements of the list [1, 2, 3, 100, 4]
 After adding element to the end of the list [1, 2, 3, 100, 4, 99] 
@@ -95,6 +91,7 @@ Before updating 140333568000768 - number address location
 After updating 140333568000768 - number address location 
 [1, 11, 22, 33]
 ```
+**Delete operation in list**
 
 ```
 # list of numbers
@@ -128,5 +125,14 @@ print(numbers)
 
 numbers.clear()
 print(numbers)
+```
+**Output of above program**
+```
+Output
+Printing the list
+[1, 2, 3, 4, 5, 6]
+6
+[1, 2, 3, 4, 5]
+[]
 ```
 
