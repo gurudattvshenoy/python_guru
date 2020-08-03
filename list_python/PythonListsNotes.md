@@ -152,7 +152,7 @@ numbers.sort()
 print("Sorted the list using sort method mutates the list {}".format(numbers))
 str = "abc"
 elem = list(str)
-print("Convesion of string  - {} to list -{} ".format(str,elem))
+print("Conversion of string  - {} to list -{} ".format(str,elem))
 ```
 **Output of above program**
 ```
@@ -166,5 +166,5 @@ The max element of the list 41
 The min element of the list -6
 The sum of elements in the list 101
 Sorted the list using sort method mutates the list [-6, 2, 2, 2, 12, 15, 33, 41]
-Convesion of string  - abc to list -['a', 'b', 'c'] 
+Conversion of string  - abc to list -['a', 'b', 'c'] 
 ```
