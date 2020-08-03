@@ -35,6 +35,7 @@ Whole list [11, 22, 33, 100, 200, 300]
 
 list methods - insert(),append(),extend()
 
+```
 numbers = [1, 2, 3, 4]
 
 # adding item at the desired location using insert method
@@ -51,13 +52,15 @@ print("Numbers is stored at {} location ".format(id(numbers)))
 numbers.extend([11, 22])
 print("Numbers is stored at {} location ".format(id(numbers)))
 print("After adding elements to the end of the list {} ".format(numbers))
+```
 
 ------------------------------------------------------------------------------------------------------
 Output of this program:
 ------------------------------------------------------------------------------------------------------
-
+```
 Displaying elements of the list [1, 2, 3, 100, 4]
 After adding element to the end of the list [1, 2, 3, 100, 4, 99] 
 Numbers is stored at 139909621338880 location 
 Numbers is stored at 139909621824192 location 
 After adding elements to the end of the list [1, 2, 3, 100, 4, 99, 11, 22, 111, 222] 
+```
