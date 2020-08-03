@@ -140,6 +140,7 @@ Printing the list
 ```
 numbers = [2,12,41,15,-6,2,33,2]
 print("Displaying the list {}".format(numbers))
+print("Displaying list in reverse order - {}".format(numbers[::-1]))
 print("The number of occurances of number 3 is {}".format(numbers.count(3)))
 print("The number of occurances of number 2 is {}".format(numbers.count(2)))
 print("The index of element 12 in the list {}".format(numbers.index(12)))
@@ -157,6 +158,7 @@ print("Conversion of string  - {} to list -{} ".format(str,elem))
 **Output of above program**
 ```
 Displaying the list [2, 12, 41, 15, -6, 2, 33, 2]
+Displaying list in reverse order - [2, 33, 2, -6, 15, 41, 12, 2]
 The number of occurances of number 3 is 0
 The number of occurances of number 2 is 3
 The index of element 12 in the list 1
@@ -167,4 +169,5 @@ The min element of the list -6
 The sum of elements in the list 101
 Sorted the list using sort method mutates the list [-6, 2, 2, 2, 12, 15, 33, 41]
 Conversion of string  - abc to list -['a', 'b', 'c'] 
+
 ```
