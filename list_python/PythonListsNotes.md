@@ -86,14 +86,47 @@ print("After updating {} - number address location ".format(id(numbers)))
 # list: [1, 11, 22, 33]
 print(numbers)
 ```
-------------------------------------------------------------------------------------------------------
-Output of above program:
-------------------------------------------------------------------------------------------------------
+**Output of above program:
+
 ```
 Displaying the elements of the list [1, 2, 3, 4] 
 Displaying the elements after modifying the index 2(3rd pos) of the list [1, 2, 100, 4] 
 Before updating 140333568000768 - number address location 
 After updating 140333568000768 - number address location 
 [1, 11, 22, 33]
+```
+
+```
+# list of numbers
+numbers = [1, 2, 3, 4, 5, 6]
+
+# Deleting 2nd element
+del numbers[1]
+
+# list: [1, 3, 4, 5, 6]
+print(numbers)
+
+# Deleting elements from 3rd to 4th
+del numbers[2:4]
+
+# list: [1, 3, 6]
+print(numbers)
+
+# Deleting the whole list
+del numbers
+
+# list of numbers
+numbers = [1, 2, 3, 4, 5, 6]
+
+print("Printing the list")
+print(numbers)
+
+print(numbers.pop())
+if 3333 in numbers:
+    numbers.remove(3333)
+print(numbers)
+
+numbers.clear()
+print(numbers)
 ```
 
