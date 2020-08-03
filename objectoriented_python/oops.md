@@ -2,6 +2,7 @@ In object oriented programming, two or more objects interact with each other.
 Objects are containers which contains state and behaviours. The state represents what object has  and behavior represents what object can do.
 
 Example: Car class - Car has windows,doors, wiper,types - attributes
+
 Car can move, stop - behaviour
 
 In python, classes themself are objects unlike other programming language.
