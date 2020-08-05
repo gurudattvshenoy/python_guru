@@ -87,14 +87,28 @@ key in d - True if key is in d, False if it is not
 
 len(d) - The len() on dictionary returns number of items PRESENT in dictionary
 
+**Remove items of dictionary***
 
-d.clear()
+1. Removes all items
+d.clear() - makes dictionary empty - {}
 
-del d[key] à removes element with that key from d à exception KeyError if key is not in d
-d.pop(key) à removes element with that key from d à and returns the corresponding value à returns default is key was not found à exception KeyError if key is not in d
-d.pop(key, default)
+2. Delete specific item
 
-def insert_if_not_present(d, key, value): if key not in d: d[key] = value return value else: return d[key]
+
+del d[key] - removes item for the matching key if present else raised KeyError exception
+
+d.pop(key) - removes element with that key from dictionary 'd' and alse returns the corresponding value 
+
+d.pop(key, default) - returns default is key was not found à exception KeyError if key is not in d
+
+```
+def insert_if_not_present(d, key, value):
+   if key not in d: 
+      d[key] = value 
+      return value 
+   else: 
+      return d[key]
+```
 d = { 'a':1,'b':2,'c':3}print(list(d.keys()))
 
 Important: order of keys and values (and items) are the same 
