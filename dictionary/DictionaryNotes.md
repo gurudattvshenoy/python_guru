@@ -27,6 +27,7 @@ Example:
 ```
 
 **Initializing dictionary**
+
 **1. Using fromkeys**
 fromkeys takes iterable as first argument and second argument is default value to the keys.``
 ```
@@ -55,14 +56,23 @@ a - N/A
 ```
 
 
-**2. Dictionary Comprehension:**
+**Assigning(adding)/Fetching value from dictionary**
 
-d[key] = value 
-creates key if it does not exist already and assigned the value
+Below syntax creates(adds) key if it NOT PRESENT in the dictionary
+d[key] = value  
+
+d = { '1':'a','2':'b','3':'c'}
+
+d['4']='e'
+Above statement will add key '4' in to dictionary d.
+
+Below syntax retrieves the key in the dictionary if its PRESENT in the dictionary.
+
 d[key] = as an expression, this returns the value for specified key 
-      if key is not present then it throws KeyError exception 
+       if key is not present then it throws KeyError exception 
 
 d.get(key) - returns value if key is found, None if key is not found
+
 d.get(key, default) - returns value if key is found, default if key is not found
 membership testingkey in d - True if key is in d, False if it is not
 number of items in dictionarylen(d)
