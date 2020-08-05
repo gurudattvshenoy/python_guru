@@ -26,22 +26,11 @@ Example:
 
 ```
 
-
 **Initializing dictionary**
-
-**1. Dictionary Comprehension:**
-```
-   squares_numbers = {
-      str(i): i*i for i in range(1,10)
-   }
-   print(squares_numbers)
-   
-   Output:{'1': 1, '2': 4, '3': 9, '4': 16, '5': 25, '6': 36, '7': 49, '8': 64, '9': 81}
+**1. Using fromkeys**
+fromkeys takes iterable as first argument and second argument is default value to the keys.``
 ```
 
-**2. Dictionary Comprehension:**
-```
-fromkeys takes iterable as first argument and second argument is default value to the keys.
 
 d = dict.fromkeys(['a', (0,0), 100], 'N/A')
 
@@ -54,6 +43,20 @@ a - N/A
 100 - N/A
 
 ```
+
+**2. Dictionary Comprehension:**
+```
+   squares_numbers = {
+      str(i): i*i for i in range(1,10)
+   }
+   print(squares_numbers)
+   
+   Output:{'1': 1, '2': 4, '3': 9, '4': 16, '5': 25, '6': 36, '7': 49, '8': 64, '9': 81}
+```
+
+
+**2. Dictionary Comprehension:**
+
 d[key] = value 
 creates key if it does not exist already and assigned the value
 d[key] = as an expression, this returns the value for specified key 
