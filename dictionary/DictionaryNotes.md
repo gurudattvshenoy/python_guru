@@ -28,6 +28,7 @@ Example:
 
 
 **Initializing dictionary**
+
 **1. Dictionary Comprehension:**
 ```
    squares_numbers = {
