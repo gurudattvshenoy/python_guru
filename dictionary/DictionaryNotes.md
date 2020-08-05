@@ -109,13 +109,19 @@ def insert_if_not_present(d, key, value):
    else: 
       return d[key]
 ```
-d = { 'a':1,'b':2,'c':3}print(list(d.keys()))
 
-Important: order of keys and values (and items) are the same 
-d = {'a': 1, 'b': 2, 'c': 3} list(d.keys()) à ['a', 'b', d.keys()d.values()d.items()all are iterables 'c'] list(d.items()) à [('a', 1), ('b', 2), ('c', 3)] 
+d = { 'a':1,'b':2,'c':3}
+print(list(d.keys()))
 
- del d['b']
-à dictionaries are now considered ordered (insertion order) àsets are not ordered 
+Important: From python 3.6, order of keys and values (and items) are the same 
+
+d = {'a': 1, 'b': 2, 'c': 3} 
+list(d.keys()) 
+['a', 'b', d.keys() d.values() d.items()all are iterables 'c'] 
+
+list(d.items()) à [('a', 1), ('b', 2), ('c', 3)] 
+
+ del d['b'] - dictionaries are now considered ordered (insertion order) , sets are not ordered 
 
 ```
 car = {
