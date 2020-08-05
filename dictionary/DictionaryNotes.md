@@ -1,13 +1,29 @@
-#h1 Dictionary
+# Dictionary
 
-basic structure of dictionary elements: key : value
-value - any Python objectkey  - any hashable object
-strings are hashablelists are never hashable
-immutable objects are hashable.mutable objects are not hashableint, float, complex, binary, Decimal, Fraction, … à immutable à hashabletuples à not hashable - immutable collection
- List - mutable collectionset, dictionary - mutable collections à not hashable
+A dictionary consists of a collection of key-value pairs. Keys has to be hashable and values can be any python object.
+Hashable objects are string,function,tuple,int, float, complex, binary, Decimal, Fraction. lists,sets,dictionaries are never hashable.
+In otherwords, immutable data types are hashable whereas mutable data types are not.
+
+
+
+**Creating Dictionary**
+
+Created using comma-separated list of key-value pairs in curly braces ({}) and colon (:) separates  key and values.
+Example:
+```
+1. dictionary = { key1: value1, key2: value2, key3: value3 }
+2. {'friends': ['John', 'alex', 36], 
+    (0, 0): 'origin', 
+    'mul': lambda x: x ** 2, 
+    'eric': {'name': 'Hawkes ', 'age': 56} 
+    }
+
+```
+
+List - mutable collectionset, dictionary - mutable collections à not hashable
 two objects that do not compare equalmay still have the same hash
 Creating Dictionaries :{ key1: value1, key2: value2, key3: value3 }
-{'john': ['John', 'Cleese', 78], (0, 0): 'origin', 'repr': lambda x: x ** 2, 'eric': {'name': 'Eric Idle', 'age': 75} }
+
 Dictionaries Comprehension:{str(i): i ** 2 for i in range(1, 5)} -> {'1': 1, '2': 4, '3': 9, '4': 16} 
 d = dict.fromkeys(['a', (0,0), 100], 'N/A')
 
