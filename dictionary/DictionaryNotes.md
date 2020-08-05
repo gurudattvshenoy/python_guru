@@ -27,11 +27,19 @@ Example:
 ```
 
 
-**Dictionaries Comprehension:**
+**Initializing dictionary**
+###1. Dictionary Comprehension:
+```
+   squares_numbers = {
+      str(i): i*i for i in range(1,10)
+   }
+   print(squares_numbers)
+   
+   Output:{'1': 1, '2': 4, '3': 9, '4': 16, '5': 25, '6': 36, '7': 49, '8': 64, '9': 81}
 
-{str(i): i ** 2 for i in range(1, 5)} -> {'1': 1, '2': 4, '3': 9, '4': 16} 
+###2. Dictionary Comprehension:
 d = dict.fromkeys(['a', (0,0), 100], 'N/A')
-
+```
 d[key] = valuecreates key if it does not exist already and assigned the value
 d[key] = as an expression returns the value for specified key = exception KeyError if key is not found
 
