@@ -1,4 +1,5 @@
-##h1 Dictionary
+#h1 Dictionary
+
 basic structure of dictionary elements: key : value
 value - any Python objectkey  - any hashable object
 strings are hashablelists are never hashable
