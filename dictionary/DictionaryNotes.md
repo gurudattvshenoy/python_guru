@@ -117,6 +117,26 @@ d = {'a': 1, 'b': 2, 'c': 3} list(d.keys()) à ['a', 'b', d.keys()d.values()d.i
  del d['b']
 à dictionaries are now considered ordered (insertion order) àsets are not ordered 
 
+```
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(car.get('year'))
+print(car.get('headquarter','N/A'))
+print("Before update - {}".format(car))
+car.update({'country':'germany'})
+car.update({'brand':'ford icon'})
+print("After update - {}".format(car))
+
+output:
+1964
+N/A
+Before update - {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+After update - {'brand': 'ford icon', 'model': 'Mustang', 'year': 1964, 'country': 'germany'}
+
+```
 
 d1 = {'a': 1, 'b': 2} d2 = {'b': 20, 'c': 30}
 d1.update(d2) d1 à {'a': 1, 'b': 20, 'c': 30}
