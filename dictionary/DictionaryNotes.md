@@ -56,20 +56,26 @@ a - N/A
 ```
 
 
-**Assigning(adding)/Fetching value from dictionary**
+**Assigning(adding) value from dictionary**
 
-Below syntax creates(adds) key if it NOT PRESENT in the dictionary
+Below syntax creates(adds) key if key is NOT PRESENT in the dictionary
+
 d[key] = value  
+
+Example:
 
 d = { '1':'a','2':'b','3':'c'}
 
 d['4']='e'
+
 Above statement will add key '4' in to dictionary d.
+
+**Fetching value from dictionary**
 
 Below syntax retrieves the key in the dictionary if its PRESENT in the dictionary.
 
 d[key] = as an expression, this returns the value for specified key 
-       if key is not present then it throws KeyError exception 
+         if key is not present then it throws KeyError exception 
 
 d.get(key) - returns value if key is found, None if key is not found
 
