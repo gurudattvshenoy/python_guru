@@ -74,15 +74,22 @@ Above statement will add key '4' in to dictionary d.
 
 Below syntax retrieves the key in the dictionary if its PRESENT in the dictionary.
 
-d[key] = as an expression, this returns the value for specified key 
-         if key is not present then it throws KeyError exception 
+d[key] as an expression, it returns the value for specified key in the dictionary, if key is not present then it throws KeyError exception 
 
-d.get(key) - returns value if key is found, None if key is not found
 
-d.get(key, default) - returns value if key is found, default if key is not found
-membership testingkey in d - True if key is in d, False if it is not
-number of items in dictionarylen(d)
+d.get(key) - returns value if key is found,otherwise the method returns 'None'.
+
+d.get(key, 'N/A') - returns value if key is found,otherwise 'N/A'.
+
+**Membership testing**
+
+key in d - True if key is in d, False if it is not
+
+len(d) - The len() on dictionary returns number of items PRESENT in dictionary
+
+
 d.clear()
+
 del d[key] à removes element with that key from d à exception KeyError if key is not in d
 d.pop(key) à removes element with that key from d à and returns the corresponding value à returns default is key was not found à exception KeyError if key is not in d
 d.pop(key, default)
