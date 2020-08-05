@@ -15,7 +15,7 @@ Example:
                     key2: value2, 
                     key3: value3 
                  }
-2. employee_guru ={ 'friends': ['John', 'alex', 36], 
+2. dict_obj ={ 'friends': ['John', 'alex', 36], 
                     (0, 0): 'origin', 
                     'mul': lambda x: x ** 2, 
                     'eric': {'name': 'Hawkes ', 'age': 56} 
@@ -40,7 +40,17 @@ Example:
 
 **2. Dictionary Comprehension:**
 ```
+fromkeys takes iterable as first argument and second argument is default value to the keys.
+
 d = dict.fromkeys(['a', (0,0), 100], 'N/A')
+
+for (key,val) in d.items():
+    print("{} - {}".format(key,val))
+
+output:
+a - N/A
+(0, 0) - N/A
+100 - N/A
 
 ```
 d[key] = value 
