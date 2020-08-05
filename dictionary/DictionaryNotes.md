@@ -11,20 +11,25 @@ In otherwords, immutable data types are hashable whereas mutable data types are 
 Created using comma-separated list of key-value pairs in curly braces ({}) and colon (:) separates  key and values.
 Example:
 ```
-1. dictionary = { key1: value1, key2: value2, key3: value3 }
-2. {'friends': ['John', 'alex', 36], 
-    (0, 0): 'origin', 
-    'mul': lambda x: x ** 2, 
-    'eric': {'name': 'Hawkes ', 'age': 56} 
+1. sample_dict = {  key1: value1, 
+                    key2: value2, 
+                    key3: value3 
+                 }
+2. employee_guru ={ 'friends': ['John', 'alex', 36], 
+                    (0, 0): 'origin', 
+                    'mul': lambda x: x ** 2, 
+                    'eric': {'name': 'Hawkes ', 'age': 56} 
     }
+ 3. Type of dictionary:
+ >>> type(employee_guru)
+     <class 'dict'>
 
 ```
 
-List - mutable collectionset, dictionary - mutable collections à not hashable
-two objects that do not compare equalmay still have the same hash
-Creating Dictionaries :{ key1: value1, key2: value2, key3: value3 }
 
-Dictionaries Comprehension:{str(i): i ** 2 for i in range(1, 5)} -> {'1': 1, '2': 4, '3': 9, '4': 16} 
+**Dictionaries Comprehension:**
+
+{str(i): i ** 2 for i in range(1, 5)} -> {'1': 1, '2': 4, '3': 9, '4': 16} 
 d = dict.fromkeys(['a', (0,0), 100], 'N/A')
 
 d[key] = valuecreates key if it does not exist already and assigned the value
