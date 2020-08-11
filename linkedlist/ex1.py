@@ -24,8 +24,9 @@ class LinkedList:
             return temp.data
 
     def print(self):
+        if not self.head:
+            print("The list is empty")
         temp = self.head
         while temp:
             print(temp.data)
             temp = temp.next
-
